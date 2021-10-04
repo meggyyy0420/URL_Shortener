@@ -1,4 +1,6 @@
 const express = require('express')
+const exphbs = require('express-handlebars')
+const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
 const app = express()
@@ -14,8 +16,15 @@ db.once('open', () => {
   console.log('mongodb connected!')
 })
 
+// setting template engine
+app.engine('hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }))
+app.set('view engine', 'hbs')
+
+// 規定每一筆請求都需要透過 body-parser 進行前置處理
+app.use(express.urlencoded({ extended: true }))
+
 app.get('/', (req, res) => {
-  res.send('hi')
+  res.render('index')
 })
 
 app.listen(3000, () => {
