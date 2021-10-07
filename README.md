@@ -1,24 +1,14 @@
 # URL_Shortener
 
-A simple website for my favorite restaurant introduction
+A simple website for shoortening your long URL
 
 ## Features
 
 - listing restaurants from restaurant api
 
-- searching restaurants by name or categories
-
-- review the full restaurant list at the home page 
-
-- clicking on picture to present detailed information for restaurant
-
-- create a new restaurant card
-
-- update the info whenever you want
-
-- remove the restaurant
-
-- sort the restaurant list in update ascending , update descending , score descending or category
+- User can paste a URL to get a shorter url back
+- User can click the short URL to get the destination web site
+- User can get reminder if the URL had been shortened before the one and the paired short one will be showed on the screen as well
 
 
 ## Environment
