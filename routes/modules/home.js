@@ -7,7 +7,6 @@ const generateUrl = require('../../generateUrl')
 router.get('/', (req, res) => {
   res.render('index')
 })
-
 router.post('/', (req, res) => {
   const inputUrl = req.body.inputUrl
   // 從inputUrl判斷資料庫有沒有該筆資料
