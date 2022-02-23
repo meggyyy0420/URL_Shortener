@@ -21,6 +21,16 @@
   </div>
 
   <div class="buttons mt-5">
+    <button class="copy btn btn-outline-primary" onclick="copy()">Copy</button>
     <a href="/" class="btn btn-outline-primary">Back</a>
   </div>
+  
+  <script>
+    function copy() {
+      const URL = document.getElementById("copyText")
+      navigator.clipboard.writeText(URL.innerText)
+        .then(() => alert('copied'))
+        .catch(error => console.log(error))
+    }
+  </script>
 </div>

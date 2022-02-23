@@ -13,7 +13,7 @@ function generateUrl() {
   for (i = 0; i < 5; i++) {
     randomStr += randomLetter(letters)
   }
-  return outputUrl = `http://localhost:3000/${randomStr}`
+  return outputUrl = `http://localhost:3001/${randomStr}`
 }
 
 module.exports = generateUrl
