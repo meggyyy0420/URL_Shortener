@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/79748426/155284310-246f0e72-8a91-40a4-a38b-3a8e26cbb797.png)
 # URL_Shortener
 
 A simple website for shoortening your long URL
@@ -5,10 +6,11 @@ A simple website for shoortening your long URL
 ## Features
 
 - listing restaurants from restaurant api
-
 - User can paste a URL to get a shorter url back
 - User can click the short URL to get the destination web site
+- User can click the button to copy the URL
 - User can get reminder if the URL had been shortened before the one and the paired short one will be showed on the screen as well
+![image](https://user-images.githubusercontent.com/79748426/155284556-4e2e632e-ed3a-4acc-89a0-c10817746f6b.png)
 
 
 ## Environment
