@@ -42,7 +42,7 @@ npm install
 ```
 npm run dev
 ```
-5. 使用瀏覽器開啟：http://localhost:3000 即可瀏覽本專案
+5. 使用瀏覽器開啟：http://localhost:3001 即可瀏覽本專案
 
 
 [node.js]: https://nodejs.org/
