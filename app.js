@@ -5,6 +5,7 @@ const routes = require('./routes')
 require('./config/mongoose')
 
 const app = express()
+const PORT = process.env.PORT || 3000
 
 // setting template engine
 app.engine('hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }))
@@ -15,6 +16,6 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(routes)
 
-app.listen(3001, () => {
-  console.log('App is running on http://localhost:3001.')
+app.listen(PORT, () => {
+  console.log(`App is running on http://localhost:${PORT}.`)
 })
