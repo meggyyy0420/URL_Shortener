@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/79748426/155284310-246f0e72-8a91-40a4-a38b-3a8e26cbb797.png)
 # URL_Shortener
 
-A simple website for shoortening your long URL
+A simple website for shoortening your long URL  on heroku
 
 ## Features
 
@@ -26,25 +26,8 @@ Install
 - [mongoose]
 - [body-parser]
 
-## Installing
-
-1. 在終端機輸入指令 Clone 此專案至本機電腦
-```
-git clone https://github.com/meggyyy0420/URL_Shortener.git
-```
-2. 移至檔案夾
-```
-cd URL_Shortener
-```
-3. 安裝相關套件
-```
-npm install
-```
-4. 啟動專案
-```
-npm run dev
-```
-5. 使用瀏覽器開啟：http://localhost:3001 即可瀏覽本專案
+### Project Pages
+瀏覽本專案：<https://fierce-citadel-17435.herokuapp.com/>
 
 
 [node.js]: https://nodejs.org/
